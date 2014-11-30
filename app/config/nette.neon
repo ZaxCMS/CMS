@@ -1,0 +1,6 @@
+autoload: [TRUE]
+
+nette:
+    application:
+        mapping:
+            *: ZaxCMS\*Presenter

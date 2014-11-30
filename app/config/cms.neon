@@ -1,0 +1,16 @@
+autoload: [TRUE]
+
+extensions:
+    cms: ZaxCMS\DI\CMSExtension
+
+cms:
+    modules:
+
+
+services:
+
+    routerFactory: ZaxCMS\RouterFactory
+    router: @routerFactory::create
+
+    - Zax\Html\Icons\FontAwesome
+    nette.templateFactory: Zax\Latte\TemplateFactory

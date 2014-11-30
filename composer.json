@@ -1,0 +1,17 @@
+{
+    "name": "zaxcms/cms",
+    "description": "ZaxCMS",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Zax",
+            "email": "zax.drummer@gmail.com"
+        }
+    ],
+    "require": {
+        "zaxcms/framework": "master"
+    },
+    "require-dev": {
+        "nette/tester": "v1.2.0"
+    }
+}

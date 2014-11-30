@@ -1,0 +1,32 @@
+autoload: [TRUE]
+
+extensions:
+    annotations: Kdyby\Annotations\DI\AnnotationsExtension
+    doctrine: Kdyby\Doctrine\DI\OrmExtension
+
+doctrine:
+    host: %zax.database.host%
+    dbname: %zax.database.database%
+    user: %zax.database.user%
+    password: %zax.database.password%
+    charset: UTF8
+    driver: pdo_mysql
+    logging: %debugMode%
+    metadataCache: default
+    queryCache: default
+    resultCache: default
+    hydrationCache: default
+    classMetadataFactory: Kdyby\Doctrine\Mapping\ClassMetadataFactory
+    defaultRepositoryClassName: Kdyby\Doctrine\EntityDao
+    autoGenerateProxyClasses: %debugMode%
+    namingStrategy: Doctrine\ORM\Mapping\UnderscoreNamingStrategy
+    quoteStrategy: Doctrine\ORM\Mapping\DefaultQuoteStrategy
+    entityListenerResolver: Kdyby\Doctrine\Mapping\EntityListenerResolver
+    proxyDir: %tempDir%/proxy
+    proxyNamespace: ZaxCMS\DoctrineProxy
+    metadata:
+        ZaxCMS\Model: %appDir%
+    #types:
+    #    bit: Doctrine\DBAL\Types\BooleanType
+    #filters:
+    #    soft-deleteable: Gedmo\SoftDeleteable\Filter\SoftDeleteableFilter
