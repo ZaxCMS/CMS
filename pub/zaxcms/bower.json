@@ -1,0 +1,14 @@
+{
+    "name": "zaxcms-cms",
+    "dependencies": {
+        "jquery": "2.1.1",
+        "jquery-ui": "1.11.2",
+        "bootstrap": "v3.3.0",
+        "nette.ajax.js": "v2.0.0",
+        "nette-forms": "v2.2.2",
+        "bootstrap-filestyle": "v1.1.2",
+        "font-awesome": "4.2.0",
+        "texyla-selection": "https://raw.githubusercontent.com/janmarek/Texyla/0.6.1/texyla/js/selection.js",
+        "texyla-selection-licence": "https://raw.githubusercontent.com/janmarek/Texyla/0.6.1/mit.txt"
+    }
+}
