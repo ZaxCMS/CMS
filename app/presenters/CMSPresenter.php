@@ -20,7 +20,7 @@ class CMSPresenter extends Presenter {
 	}
 
 	protected function createComponentCms() {
-		return $this->moduleFactory->create($this->requestedModule);
+		return $this->moduleFactory->create($this->requestedModule)->enableAjax();
 	}
 
 }
