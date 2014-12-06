@@ -1,0 +1,13 @@
+autoload: [TRUE]
+
+services:
+
+    # Zax\Html\Icons\IIcons
+
+    -
+        class: Zax\Html\Icons\FontAwesome
+        autowired: TRUE
+
+    -
+        class: Zax\Html\Icons\Glyphicons
+        autowired: FALSE

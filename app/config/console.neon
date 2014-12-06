@@ -1,4 +1,0 @@
-autoload: [TRUE]
-
-extensions:
-    console: Kdyby\Console\DI\ConsoleExtension

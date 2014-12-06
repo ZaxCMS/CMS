@@ -4,3 +4,8 @@ nette:
     application:
         mapping:
             *: ZaxCMS\*Presenter
+    session:
+        autoStart: TRUE
+
+services:
+    nette.templateFactory: Zax\Latte\TemplateFactory

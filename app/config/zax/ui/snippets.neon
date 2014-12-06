@@ -1,0 +1,13 @@
+autoload: [TRUE]
+
+services:
+
+    # Zax\Application\UI\SnippetGenerators\ISnippetGenerator
+
+    -
+        class: Zax\Application\UI\SnippetGenerators\ShortSnippetGenerator
+        autowired: TRUE
+
+    -
+        class: Zax\Application\UI\SnippetGenerators\DefaultSnippetGenerator
+        autowired: FALSE

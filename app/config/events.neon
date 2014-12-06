@@ -1,9 +1,0 @@
-autoload: [TRUE]
-
-extensions:
-    events: Kdyby\Events\DI\EventsExtension
-
-events:
-    debugger: off
-
-    subscribers:

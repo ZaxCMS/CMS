@@ -1,0 +1,10 @@
+autoload: [TRUE]
+
+extensions:
+    events: Fregis\Events\DI\EventsExtension
+
+events:
+    debugger: on
+
+    subscribers:
+        - ZaxCMS\Components\Upload\FormEnableBootstrap

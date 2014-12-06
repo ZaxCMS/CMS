@@ -1,0 +1,8 @@
+autoload: [TRUE]
+
+services:
+
+    # Zax\Application\Routers\IRouterFactory
+
+    routerFactory: ZaxCMS\RouterFactory
+    router: @routerFactory::create

@@ -19,3 +19,10 @@ nette:
             URL: 'form.error.url'
             MAX_FILE_SIZE: 'form.error.maxFileSize'
             MIME_TYPE: 'form.error.mimeType'
+
+services:
+    - Zax\Application\UI\FormFactory
+
+
+
+    - ZaxCMS\Components\Upload\IUploadFactory
