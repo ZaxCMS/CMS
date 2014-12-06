@@ -1,0 +1,25 @@
+{define uploadedFiles}
+	{if isset($uploaded)}
+		{foreach $uploaded as $file}
+			<span title="{$file->getSize()}">{$file->getSanitizedName()}</span>
+		{/foreach}
+	{/if}
+{/define}
+
+<div n:snippet>
+
+	<div class="if-js-hide">
+		{control uploadForm}
+		{include uploadedFiles}
+	</div>
+
+	<div class="files-dropzone if-not-js-hide">
+		{if isset($uploaded)}
+			{include uploadedFiles}
+		{else}
+			<p class="lead">{icon upload}</p>
+			<p>{_'common.form.dragFilesHere'}</p>
+		{/if}
+	</div>
+
+</div>
