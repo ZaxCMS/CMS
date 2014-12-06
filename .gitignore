@@ -4,6 +4,10 @@ vendor/*
 # Temp
 temp/*
 
+# Frontend assets
+pub/zaxcms/bower_components
+pub/compiled
+
 # IDE
 .idea/*
 /nbproject/private/
