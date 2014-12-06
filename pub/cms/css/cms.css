@@ -1,0 +1,198 @@
+.alerts {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+}
+.alerts .alert {
+  margin-bottom: 0px;
+}
+.alerts .alert > .pull-right {
+  margin-top: -16px;
+  margin-right: -16px;
+}
+.flag-small {
+  max-width: 22px;
+  max-height: 15px;
+}
+.panel-primary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.275);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.275);
+  -o-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.275);
+  -ms-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.275);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.275);
+}
+.panel-heading {
+  margin-bottom: 20px;
+}
+.panel-tabs {
+  position: relative;
+  bottom: 30px;
+  margin-bottom: -35px;
+  clear: both;
+  border-bottom: 1px solid transparent;
+}
+.panel-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.panel-tabs > li > a {
+  margin-right: 2px;
+  margin-top: 4px;
+  line-height: .85;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  color: #ffffff;
+}
+.panel-tabs > li > a:hover {
+  border-color: transparent;
+  color: #ffffff;
+  background-color: transparent;
+}
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+  color: #fff;
+  cursor: default;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.23);
+  border-bottom-color: transparent;
+}
+/** Display progressbar label centered */
+.progress {
+  position: relative;
+  margin-bottom: 0px;
+}
+.progress-bar {
+  z-index: 1;
+  position: absolute;
+}
+.progress > span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  color: #000;
+  text-shadow: 0px 0px 2px #fff;
+}
+/** Pills as a tree list */
+.nav.nav-pills.nav-stacked .nav.nav-pills.nav-stacked {
+  margin-left: 15px;
+}
+.webContent-editable {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  min-height: 50px;
+}
+.webContent-editable:hover {
+  border-top: 1px dashed #888;
+  border-bottom: 1px dashed #888;
+}
+.files-dropzone {
+  width: 100%;
+  height: 150px;
+  background-color: #aaa;
+  padding-top: 30px;
+  text-align: center;
+}
+.files-dropzone.active {
+  background-color: #eee;
+}
+#ajax-loading-cursor {
+  display: none;
+  position: absolute;
+  z-index: 20000;
+}
+.form-control-static.form-group {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.if-not-js-hide {
+  display: none;
+}
+.nav.size-small li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.table.table-text-center td,
+.table.table-text-center th {
+  text-align: center;
+}
+.table th .btn {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.table.table-date-input {
+  table-layout: fixed;
+}
+.text-no-bold {
+  font-weight: normal;
+}
+.well > .form-group {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input.about-4-chars-long {
+  width: 50px;
+}
+input.about-3-chars-long {
+  width: 45px;
+}
+input.about-2-chars-long {
+  width: 40px;
+}
+.table.table-date-input a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.dropdown-menu {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.dropdown-menu a {
+  cursor: pointer;
+}
+.popover {
+  max-width: none;
+}
+.tab-pane-form {
+  padding-top: 30px;
+}
+.inactive-transparent {
+  opacity: 1;
+}
+.inactive-transparent:hover {
+  opacity: 1;
+}
+.radio.radio-inline {
+  padding-left: 0px;
+}
+.img-responsive.img-thumbnail.img-thumbnail-filemanager {
+  max-height: 45px;
+  margin-right: 10px;
+  z-index: 999999;
+}
+.img-thumbnail-filemanager:hover {
+  position: relative;
+  transform: scale(5);
+}
+.whitespace {
+  margin-bottom: 30px;
+}
